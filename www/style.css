@@ -1,9 +1,13 @@
 body {
     background-color: rgb(56, 86, 126);
 }
-input{
+.input{
     width: 40%;
 }
+.input2{
+    width: 9%;
+}
+
 .LLM{
     background-color: white;
     width: 46.5%;

@@ -12,12 +12,14 @@ app.use(express.json())
 const router = express.Router()
 app.use("/api", router)
 // set up routs
-router.get("/gpt-neo/:prompt", (request,response) => {
+router.get("/gpt-neo/:maxlen/:prompt", (request,response) => {
     // get params in route from user
     let clientprompt = request.params.prompt
+    let maxlen = request.params.maxlen
     // async funtion that calls the python llm script
     async function llm2(prompt){
-        let command = 'python3 LLM.py "' + prompt + '"' 
+        console.log("User Prompt: (max length: " + maxlen + ") " + prompt)
+        let command = 'TRANSFORMERS_VERBOSITY=error python3 LLM.py ' + maxlen + ' "' + prompt + '"' 
         exec(command, (err, output) => {
             // when the command is done 
         
@@ -36,6 +38,7 @@ router.get("/gpt-neo/:prompt", (request,response) => {
                 "llm":output
             })
             response.end()
+            console.log("GPT-Neo response : " + output)
         })
 
     }

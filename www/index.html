@@ -11,8 +11,10 @@
     <center>
         <h1>Free GPT</h1>
         <h2>GPT Neo 125M params</h2>
-        <input id="user_in" placeholder="prompt">
+        <input class="input" id="user_in" placeholder="prompt">
+        <input class="input2" id="maxlen" placeholder="max-length" value="20">
         <button onclick="user_send()">Send</button>
+        <button onclick="user_continue()">Continue</button>
         <div class="LLM">
             <p id="text" style="margin: 5px;">
             </p>
