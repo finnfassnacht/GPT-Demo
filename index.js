@@ -48,5 +48,5 @@ router.get("/gpt-neo/:maxlen/:prompt", (request,response) => {
 })
 app.listen(PORT,() => {
     console.log("Server is running! @ http://127.0.0.1:3000")
-    console.log("API route @ http://127.0.0.1:3000/maxlength/prompt")
+    console.log("API route @ http://127.0.0.1:3000/api/gpt-neo/maxlength/prompt")
 })
