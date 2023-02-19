@@ -1,0 +1,24 @@
+{
+  "name": "freegpt-api",
+  "version": "1.0.0",
+  "description": "API for the EleutherAI/gpt-neo-125M LLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startserver" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://finnfassnacht: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@github.com/finnfassnacht/FreeGPT-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnfassnacht/FreeGPT-API/issues"
+  },
+  "homepage": "https://github.com/finnfassnacht/FreeGPT-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
