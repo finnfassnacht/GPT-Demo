@@ -10,9 +10,9 @@ app.use(express.static("www"))
 app.use(express.json())
 // bundels all routes to a main route
 const router = express.Router()
-app.use("/maschine", router)
+app.use("/api", router)
 // set up routs
-router.get("/LLM/:prompt", (request,response) => {
+router.get("/gpt-neo/:prompt", (request,response) => {
     // get params in route from user
     let clientprompt = request.params.prompt
     // async funtion that calls the python llm script
