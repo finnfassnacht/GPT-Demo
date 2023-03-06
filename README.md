@@ -1,7 +1,5 @@
 # GPT-Demo
 Demo for Large language models (like GPT-3)
-![Screenshot_2023-03-06_22-16-44](https://user-images.githubusercontent.com/24934998/223233910-57b9b64c-4369-4302-9249-fef0a2ab44c3.png)
-
 This is a simple demo of an API that uses GPT-Neo for text generation. The API is built using Node.js and the Express framework, while the text generation is performed using the Hugging Face implementation of the GPT-Neo 125M model in Python.
 
 This demo is designed to be used on a local area network (LAN) and is meant as a simple showcase of LLMs.
