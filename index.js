@@ -29,6 +29,7 @@ router.get("/gpt-neo/:maxlen/:prompt", (request,response) => {
                     "err":true
                 })
                 response.end()
+		console.log("system : Internal error (this was not generated)")
                 return
             }
         

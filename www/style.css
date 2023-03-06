@@ -1,0 +1,78 @@
+
+#textarea{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    min-height: 150px;
+    border-radius: 10px;
+    padding: 10px; 
+    font-size: 25px;
+
+
+  
+
+}
+input{
+    height: 43px;
+    position: relative;
+    top: 2px;
+}
+button{
+    width: 58%;
+    height: 45px;
+}
+body{
+    background-color: rgb(15, 52, 73);
+}
+.bars-4 {
+    width: 45px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(#0d00ff calc(50% - 10px),#0d00ff 0 calc(50% + 10px),#ff0000 0);
+    background: 
+      var(--c) 0%   100%,
+      var(--c) 50%  100%,
+      var(--c) 100% 100%;
+    background-size: 20% calc(200% + 20px);
+    animation:b4 1s infinite linear;
+  }
+  @keyframes b4 {
+      33%  {background-position: 0% 50%,50% 100%,100% 100%}
+      50%  {background-position: 0%  0%,50%  50%,100% 100%}
+      66%  {background-position: 0%  0%,50%   0%,100%  50%}
+      100% {background-position: 0%  0%,50%   0%,100%   0%}
+  }
+
+.bars-5 {
+    width: 45px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(#ff0000 calc(50% - 10px),#ff0000 0 calc(50% + 10px),#00ff15 0);
+    background: 
+      var(--c) 0%   100%,
+      var(--c) 50%  100%,
+      var(--c) 100% 100%;
+    background-size: 20% calc(200% + 20px);
+    animation:b4 1s infinite linear;
+  }
+  @keyframes b4 {
+      33%  {background-position: 0% 50%,50% 100%,100% 100%}
+      50%  {background-position: 0%  0%,50%  50%,100% 100%}
+      66%  {background-position: 0%  0%,50%   0%,100%  50%}
+      100% {background-position: 0%  0%,50%   0%,100%   0%}
+  }
+
+.bars-6 {
+    width: 45px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(#00ff15 calc(50% - 10px),#00ff15 0 calc(50% + 10px),#0d00ff 0);
+    background: 
+      var(--c) 0%   100%,
+      var(--c) 50%  100%,
+      var(--c) 100% 100%;
+    background-size: 20% calc(200% + 20px);
+    animation:b4 1s infinite linear;
+  }
+  @keyframes b4 {
+      33%  {background-position: 0% 50%,50% 100%,100% 100%}
+      50%  {background-position: 0%  0%,50%  50%,100% 100%}
+      66%  {background-position: 0%  0%,50%   0%,100%  50%}
+      100% {background-position: 0%  0%,50%   0%,100%   0%}
+  }
