@@ -8,7 +8,7 @@ This demo is designed to be used on a local area network (LAN) and is meant as a
 To use this demo, you will need to have Node.js, Pyhton3 and Pytorch.
 1. Clone this repository and install transformers:
 ```
-git clone https://github.com/finnfassnacht/FreeGPT-API.git
+git clone https://github.com/finnfassnacht/GPT-Demo.git
 cd FreeGPT-API
 pip3 install transformers
 ```
