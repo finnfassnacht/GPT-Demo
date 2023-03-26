@@ -1,6 +1,5 @@
 // import all modules
 const express = require("express")
-const { exec } = require('node:child_process')
 // set basic server options
 PORT = 3000
 const app = express()
