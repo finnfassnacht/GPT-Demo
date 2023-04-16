@@ -9,7 +9,7 @@ To use this demo, you will need to have Node.js, Pyhton3 and Pytorch.
 1. Clone this repository and install transformers:
 ```
 git clone https://github.com/finnfassnacht/GPT-Demo.git
-cd FreeGPT-API
+cd GPT-Demo
 pip3 install transformers
 ```
 2. Install Express js
